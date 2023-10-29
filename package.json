@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Api para listar os dados de uma lista de presentes",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "server": "node core/server.js"
   },
   "keywords": [
     "API",
@@ -14,5 +16,13 @@
     "JS"
   ],
   "author": "BrGUILHERMEHenrique",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@firebase/firestore": "^4.3.2",
+    "fastify": "^4.24.3",
+    "firebase": "^10.5.0",
+    "firestore": "^1.1.6",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
 }
